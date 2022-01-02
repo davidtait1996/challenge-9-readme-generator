@@ -150,7 +150,7 @@ function init()  {
     return generateMarkdown(projectData)
   })
   .then(markdownData => {
-    return writeToFile("some project", markdownData);
+    return writeToFile("exampleREADME", markdownData);
   })
 }
 
