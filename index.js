@@ -144,6 +144,12 @@ function init()  {
           return false;
         }
       }
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: questions[8],
+      choices: ["MIT License", "Community License", "GNU License"]
     }
   ])
   .then(projectData => {
