@@ -2,7 +2,7 @@
   
 ## Description
 
-This program accepts text input, and replies back how many vowels are in the text.  
+Counts vowels  
 
 ---
 
@@ -19,13 +19,13 @@ This program accepts text input, and replies back how many vowels are in the tex
 
 ### Installation
 
-None, hosted on Github Pages  
+None, hosted on github pages  
 
 ---
 
 ### Usage
 
-Simple type your text in the text box and press the button to get your results.  
+Type some text, press the button  
 
 ---
 
