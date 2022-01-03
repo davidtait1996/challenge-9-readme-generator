@@ -1,8 +1,6 @@
 var moment = require('moment');
 
-const mitLicense = `MIT License
-
-Copyright (c) ${moment().format('YYYY')} David Tait
+const mitLicense = `Copyright (c) ${moment().format('YYYY')} David Tait
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -225,8 +223,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`
 
-const gnuLicense = `                    GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+const gnuLicense = `Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 Everyone is permitted to copy and distribute verbatim copies
@@ -946,61 +943,61 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ## Description
+## Description
 
-  ${data.description}  
+${data.description}  
 
-  ---
+---
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [License](#license)
-  * [Tests](#tests)
-  * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
-  ---
+---
 
-  ### Installation
+### Installation
 
-  ${data.install}  
+${data.install}  
 
-  ---
+---
 
-  ### Usage
+### Usage
 
-  ${data.usage}  
+${data.usage}  
 
-  ---
+---
 
-  ### Contribution
+### Contribution
 
-  ${data.contribution}
+${data.contribution}
 
-  ---
+---
 
-  ### Tests
+### Tests
 
-  ${data.test}  
+${data.test}  
 
-  ---
+---
 
-  ### Questions
+### Questions
 
-  [Github Link](https://www.github.com/${data.github})  
-  You can reach me here: ${data.email}
+[Github Link](https://www.github.com/${data.github})  
+You can reach me here: ${data.email}
 
-  ---
+---
 
-  ### License
+### License
 
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
-  ${renderLicenseSection(data.license)}
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)}
 
-  ---
+---
 
 `;
 }

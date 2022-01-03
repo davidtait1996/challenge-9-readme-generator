@@ -1,59 +1,57 @@
-# sdf
+# Vowel Counter
   
-  ## Description
+## Description
 
-  as  
+This program accepts text input, and replies back how many vowels are in the text.  
 
-  ---
+---
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [License](#license)
-  * [Tests](#tests)
-  * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
-  ---
+---
 
-  ### Installation
+### Installation
 
-  sdf  
+None, hosted on Github Pages  
 
-  ---
+---
 
-  ### Usage
+### Usage
 
-  sgd  
+Simple type your text in the text box and press the button to get your results.  
 
-  ---
+---
 
-  ### Contribution
+### Contribution
 
-  df
+TBD
 
-  ---
+---
 
-  ### Tests
+### Tests
 
-  sdg  
+N/A  
 
-  ---
+---
 
-  ### Questions
+### Questions
 
-  [Github Link](https://www.github.com/sdf)  
-  You can reach me here: sdf
+[Github Link](https://www.github.com/davidtait1996)  
+You can reach me here: david.tait.96@gmail.com
 
-  ---
+---
 
-  ### License
+### License
 
-  ![MIT License](https://img.shields.io/badge/license-MIT-green)
-  [MIT License](https://opensource.org/licenses/MIT)
-  MIT License
-
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+[MIT License](https://opensource.org/licenses/MIT)
 Copyright (c) 2022 David Tait
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -74,5 +72,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-  ---
+---
 
